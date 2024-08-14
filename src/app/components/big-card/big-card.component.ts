@@ -7,9 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 
-  @Input() photoCover: String = "";
-  @Input() cardTitle: String = "";
-  @Input() cardDescription: String = "";
+  @Input() photoCover: string = "";
+  @Input() cardTitle: string = "";
+  @Input() cardDescription: string = "";
+  @Input() Id: string = "0";
 
   constructor() { }
 
