@@ -1,3 +1,7 @@
+<div class="container_back-button">
+  <a [routerLink]="['']"><< Voltar</a>
+</div>
+
 <div class="container_content">
 
   <div class="content_cover">
@@ -9,12 +13,12 @@
     <hr>
   </div>
 
-  <div class="content_description">
-    <P> {{ contentDescription }} </P>
+  <div class="content_short-description">
+    <P> {{ contentShortDescription }} </P>
   </div>
 
-</div>
+  <div class="content_long-description">
+    <p> {{ contentLongDescription }} </p>
+  </div>
 
-<div class="container_footer">
-  <a [routerLink]="['']"><< Voltar</a>
 </div>

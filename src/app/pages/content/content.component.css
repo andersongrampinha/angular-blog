@@ -16,13 +16,23 @@
   border-radius: 5px;
   width: 400px;
   min-width: 400PX;
-  height: 200PX;
+  height: auto;
 }
 
-.content_description  {
+.content_short-description  {
   margin-top: 15px;
 }
 
-.content_description > p{
+.content_short-description > p{
   color: rgb(197, 197, 197);
+}
+
+.content_long-description  {
+  margin-top: 15px;
+}
+
+.content_long-description > p{
+  color: rgb(197, 197, 197);
+  padding-left: 60px;
+  padding-right: 60px;
 }

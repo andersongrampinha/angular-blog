@@ -12,7 +12,8 @@ export class ContentComponent implements OnInit {
 
   @Input() photoCover: string = "";
   @Input() contentTitle: string = "";
-  @Input() contentDescription: string = "";
+  @Input() contentShortDescription: string = "";
+  @Input() contentLongDescription: string = "";
 
   private id: string | null = "0";
 
@@ -31,7 +32,8 @@ export class ContentComponent implements OnInit {
 
     this.photoCover = result.photoCover;
     this.contentTitle = result.title;
-    this.contentDescription = result.description;
+    this.contentShortDescription = result.short_description;
+    this.contentLongDescription = result.long_description;
   }
 
 }

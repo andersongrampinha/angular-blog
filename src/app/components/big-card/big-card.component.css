@@ -2,8 +2,8 @@
   margin-top: 10px;
   margin-right: 10px;
 
-  width: 400px;
-  height: 500px;
+  width: 80%;
+  height: auto;
 
   display: flex;
   flex-direction: column;
